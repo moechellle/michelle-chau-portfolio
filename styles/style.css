@@ -530,6 +530,21 @@ p {
 ██   ██  ██████  ███████ ██████  ██ ██   ████  ██████  
                                                        
 */
+.c1 {color: salmon;}
+.c2 {color: pink;}
+.c3 {color: rgb(83, 117, 241);}
+.c4 {color: rgb(212, 29, 200);}
+.c5 {color: rgb(213, 66, 50);}
+.m1 {color: rgb(45, 181, 106);}
+.m2 {color: salmon;}
+
+.c1:hover {color: salmon;}
+.c2:hover {color: pink;}
+.c3:hover {color: rgb(83, 117, 241);}
+.c4:hover {color: rgb(212, 29, 200);}
+.c5:hover {color: rgb(213, 66, 50);}
+.m1:hover {color: rgb(26, 52, 247);}
+.m2:hover{color: salmon;}
 
 .holding-page-wrapper {
   display: grid;
