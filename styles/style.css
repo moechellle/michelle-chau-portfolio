@@ -530,21 +530,21 @@ p {
 ██   ██  ██████  ███████ ██████  ██ ██   ████  ██████  
                                                        
 */
-.c1 {color: salmon;}
-.c2 {color: pink;}
-.c3 {color: rgb(83, 117, 241);}
-.c4 {color: rgb(212, 29, 200);}
-.c5 {color: rgb(213, 66, 50);}
-.m1 {color: rgb(45, 181, 106);}
-.m2 {color: salmon;}
+.c1 {fill: salmon;}
+.c2 {fill: pink;}
+.c3 {fill: rgb(83, 117, 241);}
+.c4 {fill: rgb(212, 29, 200);}
+.c5 {fill: rgb(213, 66, 50);}
+.m1 {fill: rgb(45, 181, 106);}
+.m2 {fill: salmon;}
 
-.c1:hover {color: salmon;}
-.c2:hover {color: pink;}
-.c3:hover {color: rgb(83, 117, 241);}
-.c4:hover {color: rgb(212, 29, 200);}
-.c5:hover {color: rgb(213, 66, 50);}
-.m1:hover {color: rgb(26, 52, 247);}
-.m2:hover{color: salmon;}
+.c1:hover {fill: rgb(111, 21, 11);}
+.c2:hover {fill: rgb(20, 25, 170);}
+.c3:hover {fill: rgb(35, 162, 18);}
+.c4:hover {fill: rgb(22, 40, 32);}
+.c5:hover {fill: rgb(156, 193, 22);}
+.m1:hover {fill: rgb(220, 9, 41);}
+.m2:hover {fill: rgb(164, 225, 179);}
 
 .holding-page-wrapper {
   display: grid;
