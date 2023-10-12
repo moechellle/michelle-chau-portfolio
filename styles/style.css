@@ -116,9 +116,9 @@ img, svg {
 
 .headline {
   font-family: 'Anton', sans-serif;
-  font-size: 3rem;
-  max-width: 70%;
+  font-size: 2rem;
   letter-spacing: 5px;
+  color:rgb(143, 239, 131);
   
   
  
@@ -126,10 +126,8 @@ img, svg {
 
 .description {
   font-family: 'Quicksand', sans-serif;
-  max-width: 50%;
-  color:#111;
   font-size: 1.5rem;
-  margin-top: 30px;
+  color: yellowgreen;
   
   
   
@@ -277,10 +275,7 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  /* background: rgb(238, 174, 202);
-  background: radial-gradient(circle,
-      rgba(238, 174, 202, 1) 0%,
-      rgba(148, 187, 233, 1) 100%); */
+  background: black;
 }
 
 .branding-navigation {
@@ -301,7 +296,7 @@ p {
   flex: 1;
   align-items: center;
   justify-content: center;
-  padding: 2rem 4rem;
+  padding-left: 8rem;
   text-align: center;
 }
 
@@ -763,7 +758,8 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .hero-headline-wrapper {
-    padding: 4rem 8rem;
+    padding-left: 20rem;
+    border: 2px dashed orange;
   }
 
   .grid {
