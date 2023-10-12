@@ -116,7 +116,7 @@ img, svg {
 
 .headline {
   font-family: 'Anton', sans-serif;
-  font-size: 7rem;
+  font-size: 3rem;
   max-width: 70%;
   letter-spacing: 5px;
   
@@ -167,9 +167,7 @@ img, svg {
   font-family: 'Quicksand', sans-serif;
 
 }
-.footer-item-1 {
-  font-family: 'Quicksand', sans-serif;
-}
+
 h2 {
   font-size: 2.25rem;
   font-family: 'Quicksand', sans-serif;
@@ -463,6 +461,8 @@ p {
 .footer-item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  font-family: 'Quicksand', sans-serif;
+
   
 }
 
@@ -476,10 +476,8 @@ p {
   grid-row: 3 / 4;
 }
 
-.footer-item-4 {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
+
+
 
 /* Project Page 
 
@@ -501,9 +499,7 @@ p {
 /* Sidebar */
 .project-aside {
   width: 100%;
-
   color: white;
-  background: rgb(255, 255, 255);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -532,7 +528,6 @@ p {
 .project-image {
   width: 100%;
   font-size: 12rem;
-  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -551,10 +546,6 @@ p {
 
 .project-details {
   width: 100%;
-  background-image: linear-gradient(-225deg,
-      #ffffff 0%,
-      #ffffff 50%,
-      #ffffff 100%);
   padding: 1rem;
   
 }
@@ -593,8 +584,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background:rgb(245, 44, 44);
-    url(/assets/temp/noise.svg);
+
   /* https://grainy-gradients.vercel.app/ */
 }
 
@@ -769,7 +759,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 50vh;
   }
 
   .hero-headline-wrapper {
@@ -801,7 +791,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .global-footer {
     padding: 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .about-item-1 {
@@ -829,10 +819,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     grid-column: 3 / 4;
   }
 
-  .footer-item-3 {
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
-  }
+
 
   .about-item-4 {
     grid-row: 2 / 3;
@@ -841,7 +828,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     align-self: end;
   }
 
-  .footer-item-4 {
+  .footer-item-3 {
     grid-row: 2 / 3;
     grid-column: 1 / 4;
     text-align: center;
@@ -876,7 +863,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .project-image {
-    min-height: 100vh;
   }
 
   .project-image-container {
